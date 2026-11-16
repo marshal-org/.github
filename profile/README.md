@@ -28,6 +28,7 @@ Marshal is self-hosted: it installs into a Kubernetes cluster you control.
 Cheap spot VMs for coding agents, in your own cloud. One command gives an agent, a CI job or you
 a real Linux machine in your own AWS or Google Cloud account. It has no public address, your keys
 never leave your computer, and it deletes itself when its lease ends. Free, Apache-2.0.
+[Source and releases on GitHub](https://github.com/marshal-org/runlease).
 
 ```bash
 curl -fsSL https://runlease.online/install.sh | sh
